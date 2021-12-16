@@ -76,3 +76,37 @@ body {
 .feature p {
   color: #8f8f8f;
 }
+
+/* TESTIMONIAL */
+
+.testimonial-text {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
