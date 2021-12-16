@@ -21,6 +21,8 @@ body {
 .title-img {
   transform: rotate(25deg);
   width: 60%;
+  margin-left: 15%;
+  padding: 5%;
 }
 
 /* NAV BAR */
@@ -49,13 +51,22 @@ body {
 /* FEATURES */
 #features {
   text-align: center;
+  padding: 7% 15%;
 }
 
 .features-icon {
   color: #ef8172;
   width: 50%;
+  margin-bottom: 1rem;
 }
 
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.feature {
+  padding: 5%;
+}
 .feature h3 {
   font-size: 1.5rem;
   font-family: "Montserrat";
@@ -64,8 +75,4 @@ body {
 
 .feature p {
   color: #8f8f8f;
-}
-
-.features-icon:hover {
-  color: #ff4c68;
 }
