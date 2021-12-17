@@ -86,7 +86,7 @@ h3 {
   font-weight: 800;
 }
 
-.feature p {
+p {
   color: #8f8f8f;
 }
 
@@ -146,6 +146,7 @@ h3 {
   text-align: center;
   background-color: #ff4c68;
   padding: 7% 15%;
+  color: #fff;
 }
 .cta-text {
   font-family: "Montserrat";
@@ -153,6 +154,39 @@ h3 {
   font-size: 3rem;
   line-height: 1.5;
 }
+/* FOOTER */
+
+footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.icon {
+  margin: 1.5%;
+}
+
+.author {
+  color: black;
+  margin: 7% 0 0;
+}
+
+.author-link {
+  color: #000;
+  text-decoration: none;
+  margin: 0 1%;
+}
+
+.author-links {
+  display: flex;
+  justify-content: center;
+  margin: 2% 0 0;
+}
+
+.author-link:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
 @media (max-width: 1400px) {
   .title-img {
     position: static;
